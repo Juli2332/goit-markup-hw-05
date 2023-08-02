@@ -355,7 +355,26 @@
         </ul>
       </div>
     </div>
+    <div class="subscription-block">
+      <p class="footer-block-name">Subscribe</p>
+      <form class="susubscription-form">
+        <label class="subscription-form-label">
+          <input 
+          type="email"
+          name="user-email" 
+          class="subscription-form-input" 
+          placeholder="E-mail" 
+           />
+        </label>
+        <button type="submit" class="subscription-form-btn">
+          Subscription
+          <svg class="subscription-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-Frame"></use>
+          </svg>
+        </button>
   </footer>
+       <!-- modal-->
+
   <div class="backdrop" data-modal>
     <div class="modal">
       <button type="button" class="modal-close-btn" data-modal-close>
@@ -367,20 +386,24 @@
     <form class="modal-form">
    <div class="modal-field">
 <label for="user-name" class="input-label">Name</label>
+<div class="input-wrap">
 <input
  type="text" 
  name="user-name" 
  class="modal-input"
  placeholder="Enter name" 
- readonly
+ 
  id="user-name"
  />
 <svg class="model-input-icon" width="16" hidden="11">
   <use href="./images/icons.svg#icon-person-black"></use>
 </svg>
+</div>
+</div>
 
-
+<div class="modal-field">
 <label for="user-tel" class="input-label">Phone</label>
+<div class="input-wrap">
 <input type="text"
  name="user-tel" 
  class="modal-input" 
@@ -389,17 +412,30 @@
  />
 <svg class="model-input-icon" width="16" hidden="11">
   <use href="./images/icons.svg#icon-phone-black"></use> </svg>
+</div>
+</div>
 
+<div class="modal-field">
 <label for="user-email" class="input-label">Email</label>
-<input
- type="text" 
- name="user-email"
- class="modal-input"
- placeholder="Enter email"
- id="user-email"
- />
-<svg class="model-input-icon" width="16" hidden="11">
-  <use href="./images/icons.svg#icon-email-black"></use></svg>
+<div class="input-wrap">
+  <input type="text" 
+  name="user-email" 
+  class="modal-input" 
+  placeholder="Enter email" 
+  id="user-email" />
+  <svg class="model-input-icon" width="16" hidden="11">
+    <use href="./images/icons.svg#icon-email-black"></use>
+  </svg>
+</div>
+</div>
+<div class="modal-field">
+  <label for="user-comment" class="input-label">Comment</label>
+  <textarea name="user-comment" 
+  id="user-comment"
+  class="modal-texarea"
+  placeholder="Text input"
+  ></textarea>
+</div>
 
 <div class="data-privacy">
 <input
@@ -415,7 +451,7 @@
 </svg>
     </span>
     I accept the terms and conditions of the
-    <a href="" class="privacy-policy">Privacy-policy</a>
+    <a href="#" class="privacy-policy">Privacy-policy</a>
   </label>
 
 </div>
