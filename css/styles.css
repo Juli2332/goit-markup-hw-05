@@ -705,9 +705,7 @@ body {
 
 }
 .subscription-block {
-    margin-right: 0;
-    display: block;
-    gap: 40px;
+    margin-left: 80px;
 }
 .footer-block-name {
     color: #fff;
@@ -722,7 +720,7 @@ body {
         gap: 24px;
 }
 .subscription-form-input {
-    border-radius: 4px;
+        border-radius: 4px;
         border: 1px solid #fff;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
         width: 264px;
@@ -737,23 +735,26 @@ body {
         letter-spacing: 0.04em;
 }
 .subscription-form-btn {
-    padding: 8px 24px;
-    color: #fff;
-    text-align: center;
-    font-size: 16px;
-    letter-spacing: 0.04em;
-    font-weight: 500;
-    line-height: 1.5;
-    border-radius: 4px;
-    background: #4d5ae5;
-    height: 40px;
-    min-width: 165px;
- 
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    border: none;
-
+        padding: 8px 24px 8px 16px;
+        color: #fff;
+        text-align: center;
+    
+        font-size: 16px;
+        letter-spacing: 0.04em;
+        font-weight: 500;
+        line-height: 1.5;
+        border-radius: 4px;
+        background: #4d5ae5;
+        height: 40px;
+        min-width: 165px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        border: none;
+}
+.subscription-icon {
+    margin-left: 16px;
 }
 .subscription-form-input::placeholder {
     color: #ffffff;
