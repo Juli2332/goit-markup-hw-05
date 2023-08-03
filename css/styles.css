@@ -730,27 +730,25 @@ body {
     padding: 8px 24px 8px 16px;
     color: #fff;
     text-align: center;
-
     font-size: 16px;
     letter-spacing: 0.04em;
     font-weight: 500;
     line-height: 1.5;
     border-radius: 4px;
     background: #4d5ae5;
-
     height: 40px;
     min-width: 165px;
-
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     border: none;
+    fill: currentColor;
 }
 
 .footer-btn-svg {
     margin-left: 16px;
-   
+  
 }
 
 .footer-form {
