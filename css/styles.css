@@ -1142,7 +1142,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration-line: underline;
 }
 .modal-form-btn {
-border-radius: 4px;
+    border-radius: 4px;
     background: #4d5ae5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
@@ -1157,9 +1157,7 @@ border-radius: 4px;
     height: 56px;
     color: #fff;
     text-align: center;
-
     font-size: 16px;
-
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -1167,23 +1165,19 @@ border-radius: 4px;
 
 }
 
-.input-checkbox + .input-privacy .data-check-svg {
-    background-color: var(--hover-color);
-    border: none;
-}
 .data-check-svg {
     display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 16px;
-        height: 16px;
-        margin-right: 8px;
-        fill: transparent;
-        border-radius: 2px;
-        border: 1px solid rgba(46, 47, 66, 0.4);
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    fill: transparent;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 .input-checkbox:checked + .input-privacy span{
     background-color: #404bbf;
